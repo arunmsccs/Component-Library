@@ -2,33 +2,39 @@ header{
     display: flex;
     height: 60px;
     line-height: 60px;
-    border: 1px solid #000;
+    border: 1px solid #dedede;
+    background-color: #efefef;
+    box-shadow: 1px 0 3px 3px rgba(0, 0, 0, 0.3);
 }
 .Logo{
     width: 120px;
+    font-weight: bolder;
+    font-size: 23px;
+    transform: rotate(-30deg)
 }
 
 .User{
-    width: 120px;
+    padding: 0 15px;
+    width: 80px;
     position: absolute;
     right: 0;
-    border-left: 1px solid #000;
-    padding-left: 16px;
+    border-left: 1px solid #dedede;
 }
 
 nav ul{
     margin: 0;
     padding:0;
-    border-left: 1px solid #000;
+    border-left: 1px solid #dedede;
     /* border-right: 1px solid #000; */
 }
 nav ul li {
     margin: 0;
     padding:0 16px;
     list-style: none;
-    display: inline;
-    border-right: 1px solid #000;
-
+    display: inline-block;
+    /* border-right: 1px solid #dedede; */
+    transform: rotate(-30deg);
+    color: tomato;
 }
 .noBroder {
     border: none !important;
