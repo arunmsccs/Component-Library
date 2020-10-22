@@ -11,8 +11,10 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div className="content">
+        <Card name="Fruits" price="10"/>
+      </div>
       <Footer />
-      <Card name="Fruits" price="10"/>
     </div>
   );
 }
