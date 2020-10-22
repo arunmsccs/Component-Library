@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #000;
+}
+.Logo{
+    width: 120px;
+}
+
+.User{
+    width: 120px;
+    position: absolute;
+    right: 0;
+    border-left: 1px solid #000;
+    padding-left: 16px;
+}
+
+nav ul{
+    margin: 0;
+    padding:0;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+nav ul li {
+    margin: 0;
+    padding:0 16px;
+    list-style: none;
+    display: inline;
+    border-right: 1px solid #000;
+
+}
+.noBroder {
+    border: none;
+}
